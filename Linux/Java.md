@@ -1,8 +1,6 @@
-[toc]
-
 # 关于Java的linux命令
 
-## <span id="springboot_start">Springboot 启动命令<span>
+#### Springboot启动命令
 ``` shell
 JAVA_HOME=
 project_home=
@@ -15,7 +13,7 @@ nohup \
     -jar \
     ${project_home}/${project_name} \
     --spring.profiles.active=dev \
-> /dev/null 2>&1
+> /dev/null 2>&1 &
 
 sleep 3
 
