@@ -1,6 +1,6 @@
 # 关于Java的linux命令
 
-#### Springboot启动命令
+#### Springboot 启动命令
 ``` shell
 JAVA_HOME=
 project_home=
